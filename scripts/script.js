@@ -143,9 +143,9 @@
 		
 		showLoading('#contents');
 		$ajaxUtils.sendGetRequest(
-			homeHtml,
-			function (homeHtml) {
-				insertHtml('#contents', homeHtml);
+			experienceHtml,
+			function (experienceHtml) {
+				insertHtml('#contents', experienceHtml);
 			},
 			false);
 	});
@@ -178,7 +178,7 @@
 		showLoading('#contents');
 		$ajaxUtils.sendGetRequest(
 			studiesHtml,
-			function (awardsHtml) {
+			function (studiesHtml) {
 				insertHtml('#contents', studiesHtml);
 			},
 			false);
