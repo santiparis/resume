@@ -143,9 +143,9 @@
 		
 		showLoading('#contents');
 		$ajaxUtils.sendGetRequest(
-			experienceHtml,
-			function (experienceHtml) {
-				insertHtml('#contents', experienceHtml);
+			homeHtml,
+			function (homeHtml) {
+				insertHtml('#contents', homeHtml);
 			},
 			false);
 	});
